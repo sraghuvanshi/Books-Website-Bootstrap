@@ -1,0 +1,71 @@
+@media only screen and (max-width:768px) {
+    
+ header .navbar-brand {
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section .row h1{
+        padding: 6vmin 4vmin;
+
+    }
+
+    .section-3 .row .col-md-6{
+        text-align:center !important; 
+    }
+
+    .section-3 .col-md-12 > p{
+        padding: 0.4em;
+    }
+
+    .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    footer{   
+        padding: 10vmin;  
+    }
+
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    /* footer .row .col-md-2{
+        margin-top: 8vmin;
+    } */
+
+    footer{
+        
+        padding: 14vmin 18vmin;
+        
+    }
+
+}
+
+/* Commit 6/10/19 */
